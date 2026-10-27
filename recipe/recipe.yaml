@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: nsbm
-  version: "0.7.3"
+  version: "0.7.4"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://github.com/fvalle1/trisbm/archive/refs/tags/${{ version }}.tar.gz
-  sha256: a7149e5ce2c42cd5ac1cda3d492940bc8490d213d87461248eecdfa74feac03c
+  sha256: 667edb55e333576f043f2657f80ba4ec43bac9dda0579f8b6542c6565509244a
 
 build:
   number: 0
