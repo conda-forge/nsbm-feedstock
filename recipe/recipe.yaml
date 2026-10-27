@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: nsbm
-  version: "0.6.2"
+  version: "0.7.4"
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://github.com/fvalle1/trisbm/archive/refs/tags/${{ version }}.tar.gz
-  sha256: f9184dda34cfb78387614e17a567d9ae3cc1c2250a38bd64724affbb437566c6
+  sha256: 667edb55e333576f043f2657f80ba4ec43bac9dda0579f8b6542c6565509244a
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
